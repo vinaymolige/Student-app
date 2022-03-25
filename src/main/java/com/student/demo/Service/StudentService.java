@@ -17,6 +17,7 @@ public class StudentService {
 
     public void save(Student std) {
         repo.save(std);
+        System.out.println("saved ");
     }
 
     public Student get(long id) {
